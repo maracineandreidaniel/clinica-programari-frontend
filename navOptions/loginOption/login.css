@@ -1,0 +1,97 @@
+body{
+    box-sizing: border-box;
+    display: grid;
+    row-gap: 30px;
+    grid-template-columns: 1fr;
+    background-color: rgb(231, 245, 248);
+    margin: 0;
+    
+    
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+    font-size: 17px;
+    font-family: serif;
+    font-family: 'Righteous', cursive;
+    padding-bottom: 10px;
+    margin-bottom: 70px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.optiuni{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    color: white;
+   bottom: 1px;
+   text-align: center;
+}
+
+form{
+    font-family: 'Righteous', cursive;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:rgb(118, 176, 190) ;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    max-width: 500px;
+    box-shadow: 3px 3px 3px black;
+}
+
+fieldset{
+    border: 0;
+}
+
+.field{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+button{
+    margin: auto;
+    margin-top: 30px;
+    width: 40%;
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    border-radius: 10px;
+    max-width: 150px;
+}
+
+@media(min-width:720px){
+    nav{
+        flex-direction: row;
+        gap: 20%;
+        padding: 10px;
+    }
+
+    .optiuni{
+        flex-direction: row;
+    }
+}
