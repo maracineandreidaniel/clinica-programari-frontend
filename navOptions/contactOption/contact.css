@@ -1,0 +1,96 @@
+body{
+    box-sizing: border-box;
+    display: grid;
+    row-gap: 30px;
+    grid-template-columns: 1fr;
+    background-color: rgb(231, 245, 248);
+    margin: 0;
+    
+    
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+    font-size: 17px;
+    font-family: serif;
+    font-family: 'Righteous', cursive;
+    padding-bottom: 10px;
+    margin-bottom: 70px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.optiuni{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    color: white;
+   bottom: 1px;
+   text-align: center;
+}
+
+main{
+    color: black;
+    background-color: rgb(118, 176, 190);
+    margin: auto;
+    width: 90%;
+    box-shadow: 10px 10px red ;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.infos{
+
+    font-size: 25px;
+    text-align: center;
+}
+
+.infos a{
+    color:red ;
+    text-decoration: none;
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.images img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    
+}
+
+@media(min-width:720px){
+    nav{
+        flex-direction: row;
+        gap: 20%;
+        padding: 10px;
+    }
+
+    .optiuni{
+        flex-direction: row;
+    }
+}
